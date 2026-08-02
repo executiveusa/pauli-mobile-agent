@@ -7,7 +7,7 @@ This file records verified lessons from architecture, implementation, device tes
 - The repository was initially created publicly and empty.
 - GitHub's contents API could not initialize an unborn branch; a local first commit was required.
 - Running `gh repo clone` from `C:\Windows\System32` failed because the directory is protected.
-- The successful local workspace is `C:\Users\execu\Projects\pauli-mobile-agent`.
+- The successful approach was to clone into a user-owned `Projects\pauli-mobile-agent` workspace.
 - The first verified local commit was `6a3e337` and established a writable `main` branch.
 - Sensitive architecture and implementation should not be committed while the repository remains public.
 
