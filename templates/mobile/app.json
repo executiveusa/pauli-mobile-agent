@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Pauli LifeOS",
+    "slug": "pauli-lifeos",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "android": {
+      "package": "org.executiveusa.paulilifeos",
+      "versionCode": 1,
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "minSdkVersion": 29
+          }
+        }
+      ],
+      "@qvac/sdk/expo-plugin",
+      "expo-secure-store"
+    ],
+    "extra": {
+      "proofState": "prototype-unverified",
+      "cloudInferenceAllowed": false
+    }
+  }
+}
