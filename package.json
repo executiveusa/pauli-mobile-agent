@@ -4,6 +4,7 @@
   "version": "0.1.0",
   "scripts": {
     "bootstrap:mobile": "powershell -ExecutionPolicy Bypass -File ./scripts/bootstrap-mobile.ps1",
+    "verify:android-device": "powershell -ExecutionPolicy Bypass -File ./scripts/verify-android-device.ps1",
     "verify:foundation": "node ./scripts/verify-foundation.mjs"
   },
   "engines": {
