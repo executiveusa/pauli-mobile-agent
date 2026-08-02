@@ -1,0 +1,12 @@
+{
+  "name": "pauli-mobile-agent",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "bootstrap:mobile": "powershell -ExecutionPolicy Bypass -File ./scripts/bootstrap-mobile.ps1",
+    "verify:foundation": "node ./scripts/verify-foundation.mjs"
+  },
+  "engines": {
+    "node": ">=22.17"
+  }
+}
